@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
 
 Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
 
@@ -39,5 +41,11 @@ Mobile.setText(findTestObject('Create Profile/input_text_Confirm Password'), 'ad
 
 Mobile.tap(findTestObject('Create Profile/button_Create Profile'), 0, FailureHandling.STOP_ON_FAILURE)
 
+AppiumDriver<?> driver = MobileDriverFactory.getDriver();
+
+def toast = driver.findElementByXPath("//android.widget.Toast[@text='Account Successfully Created']")
+
 Mobile.verifyElementVisible(findTestObject('Homepage/button_LOGIN'), 0)
+
+driver.terminateApp('com.example.mikebanks.bankscorpfinancial')
 
