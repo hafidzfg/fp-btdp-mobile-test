@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>toast_Payment of 1.00 successfully made</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.Toast</value>
+      <webElementGuid>e534bc4d-7544-4eec-a497-520b3e63097e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>2df0faf0-b63f-47dc-9308-5a68e50a73ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payment of $1.00 successfully made</value>
+      <webElementGuid>d78dbfb7-ec42-4ddb-9819-1767b6567476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>com.android.settings</value>
+      <webElementGuid>175951d5-612f-4506-8c14-626ae29ca7e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5f3376ba-7f59-4671-bda0-31e3beb5afe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.Toast[1]</value>
+      <webElementGuid>34d7c797-db0a-4f1e-9591-4667c5cffd63</webElementGuid>
+   </webElementProperties>
+   <locator>//hierarchy/android.widget.Toast[1]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</MobileElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>toast_Payment of 5.00 successfully made</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.Toast</value>
+      <webElementGuid>efc909c2-268c-442b-aa92-4b6594941360</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>8d0f7af4-1a94-440a-96c2-e1bd04d02b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payment of $5.00 successfully made</value>
+      <webElementGuid>9378da00-4acf-4731-a974-426be5c3ff68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>com.android.settings</value>
+      <webElementGuid>b7e09b06-286a-4adb-a7bf-b2a357b6ff0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f0856d26-e71f-4560-aa40-f447fa23bf4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.Toast[1]</value>
+      <webElementGuid>eb8dc3f2-721a-4325-a60a-a8decbacaae5</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@class = 'android.widget.Toast' and (@text = 'Payment of $5.00 successfully made' or . = 'Payment of $5.00 successfully made')]</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

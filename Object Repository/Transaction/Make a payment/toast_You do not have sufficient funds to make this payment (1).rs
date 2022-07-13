@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>toast_You do not have sufficient funds to make this payment (1)</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.Toast</value>
+      <webElementGuid>fd750cdd-9306-4372-afe9-b7f83472523e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>fbdbf285-98b3-4d57-85c7-98de676ea6b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You do not have sufficient funds to make this payment</value>
+      <webElementGuid>f3b42d4c-178f-41c6-a41f-cfa40f2b6995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>com.android.settings</value>
+      <webElementGuid>72128623-78b4-40ab-8cd5-7dbfbf62d96d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>104a05e6-22fc-47b9-8c77-a6c7364dd400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.Toast[1]</value>
+      <webElementGuid>a17eca5d-d50c-4f1f-a363-92c765b559db</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@class = 'android.widget.Toast' and (@text = 'You do not have sufficient funds to make this payment' or . = 'You do not have sufficient funds to make this payment')]</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>
