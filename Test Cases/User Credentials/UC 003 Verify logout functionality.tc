@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UC 003 Verify logout functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb02deb3-ed82-4f71-934d-0cb1041cd89b</testCaseGuid>
+</TestCaseEntity>
