@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Hafidz-TC Login Bank App
+Description: </description>
+   <name>UC 002 Login to app</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10030&quot;:&quot;```cucumber\nFeature: Create a Profile functionality\n  As a customer\n  In order to use the application\n  I want to create a user profile\n\nScenario: Create a profile with valid details\n Given I am at the Create a Profile page\n  When I fill the account First Name textbox with value \u0027super\u0027\n   And I fill the account Last Name textbox with value \u0027tester\u0027\n   And I fill the account Country textbox with value \u0027Indonesia\u0027\n   And I fill the account Username textbox with value \u0027testinguser1\u0027\n   And I fill the account Password textbox with value \u0027inipasswordrahasia\u0027\n   And I fill the account Country textbox with value \u0027inipasswordrahasia\u0027\n   And I tapped the Create Profile button\n  Then my profile should be created and I am redirected to the login page\n```&quot;,&quot;customfield_10031&quot;:[],&quot;customfield_10020&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;WP Sprint 1&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:3}],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0002f:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar1.atlassian.net/&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Hafidz-TC Login Bank App&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;hafidzfg@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Hafidz Firmansyah Ghufara&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d607c529d5431a5007003b223&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;hafidzfg@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Hafidz Firmansyah Ghufara&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d607c529d5431a5007003b223&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/MP-8/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/10012&quot;,&quot;key&quot;:&quot;MP-8&quot;,&quot;id&quot;:10012}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>5f41e437-445b-4c0b-b8ab-681ef439c778</testCaseGuid>
+</TestCaseEntity>
