@@ -19,4 +19,9 @@
       <initValue>'lorem'</initValue>
       <name>firstName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'acc1'</initValue>
+      <name>account1Name</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
