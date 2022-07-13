@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Homepage/button_LOGIN'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-if (Mobile.verifyElementExist(findTestObject('Homepage/button_LOGIN'), 10)) {
+if (Mobile.verifyElementExist(findTestObject('Homepage/button_LOGIN'), 10, FailureHandling.OPTIONAL)) {
     Mobile.callTestCase(findTestCase('User Credentials/UC 001 Create a profile'), [:], FailureHandling.STOP_ON_FAILURE)
 	Mobile.setText(findTestObject('Homepage/input_text_Username'), GlobalVariable.username, 0)
 	
