@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Transaction/Make a payment/button_Add Payee'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Transaction/Make a payment/text_Add a Payee'), 0)
 
-Mobile.setText(findTestObject('Transaction/input_text_Payee Name'), 'danacita', 0)
+Mobile.setText(findTestObject('Transaction/Make a payment/input_text_Payee Name'), 'danacita', 0)
 
 Mobile.tap(findTestObject('Transaction/Make a payment/button_ADD'), 0)
 
