@@ -16,8 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
+
+Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
+
+
+if (Mobile.verifyElementNotExist(findTestObject('Homepage/button_LOGIN'), 5, FailureHandling.OPTIONAL)) {
+	AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+	driver.terminateApp('com.example.mikebanks.bankscorpfinancial')
+}
 
 Mobile.callTestCase(findTestCase('User Credentials/UC 002 Login to app'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,6 +37,7 @@ Mobile.waitForElementPresent(findTestObject('Homepage/button_LOGIN'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Homepage/button_LOGIN'), 0)
 
-AppiumDriver<?> driver = MobileDriverFactory.getDriver();
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+
 driver.terminateApp('com.example.mikebanks.bankscorpfinancial')
 
